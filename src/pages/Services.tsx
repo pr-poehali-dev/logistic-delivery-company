@@ -3,6 +3,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import Icon from '@/components/ui/icon';
+import DeliveryCalculator from '@/components/DeliveryCalculator';
 
 const Services = () => {
   const serviceCategories = [
@@ -172,6 +173,13 @@ const Services = () => {
             Полный спектр логистических решений для доставки грузов по России, 
             из стран СНГ и Китая с профессиональным сервисом
           </p>
+        </div>
+      </section>
+
+      {/* Calculator Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <DeliveryCalculator />
         </div>
       </section>
 
