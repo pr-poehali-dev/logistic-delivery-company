@@ -79,7 +79,7 @@ const Index = () => {
               <span className="text-2xl font-bold text-slate-800">РусЛогистик</span>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <a href="#services" className="text-slate-600 hover:text-blue-600 transition-colors">Услуги</a>
+              <a href="/services" className="text-slate-600 hover:text-blue-600 transition-colors">Услуги</a>
               <a href="#tariffs" className="text-slate-600 hover:text-blue-600 transition-colors">Тарифы</a>
               <a href="#tracking" className="text-slate-600 hover:text-blue-600 transition-colors">Отслеживание</a>
               <a href="#about" className="text-slate-600 hover:text-blue-600 transition-colors">О компании</a>
